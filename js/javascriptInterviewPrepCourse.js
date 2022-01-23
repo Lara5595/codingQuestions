@@ -109,10 +109,19 @@ var foo;
 
 // create a counter function which has increment and getValue functionality
 
-function countTo100(){
-    for(let i = 0; i <=100; i++){
+// function countTo100(){
+//     for(let i = 0; i <=100; i++){
+//         console.log(i)
+//     }
+// }
+//
+// countTo100()
+
+// this is with a variable
+function countTo100(num){
+    for(let i = 0; i <=num; i++){
         console.log(i)
     }
 }
 
-countTo100()
+countTo100(20)
