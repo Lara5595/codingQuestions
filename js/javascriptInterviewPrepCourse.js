@@ -75,3 +75,20 @@ console.log(typeof var2) // object
 
 // difference between null or undefined
 // : Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. Undefined: It means the value does not exist in the compiler
+
+
+
+// What will be console.logged here
+// Question 1
+// console.log(foo); // this is called hoisting because it is not declared yet and we get a error foo is not defined
+// foo = 1;
+
+// Question 2
+console.log(foo); // We get undefined because it is hoisting
+var foo = 2;
+
+// question 3
+foo = 3;
+console.log(foo); // this console log  3
+var foo;
+
