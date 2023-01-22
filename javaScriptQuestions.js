@@ -18,3 +18,21 @@ function pushNumbersToArray(num){
 }
 
 console.log(pushNumbersToArray(30))
+
+
+// Pushing a string and length into a empty array
+function addLength(str) {
+//start-here
+
+    let words = str.split(' ');
+
+    let arr = [];
+
+    for(let i = 0; i < words.length; i++){
+        arr.push(words[i] + ' ' + words[i].length);
+    }
+
+    return arr;
+}
+
+console.log(addLength("helloooooo"))
