@@ -5,22 +5,73 @@ const users = [
         id: 1,
         name: "David",
         isActive: true,
+        age: 27,
     },
 
     {
         id: 2,
         name: "Lessly",
         isActive: true,
+        age: 24,
     },
     {
         id: 3,
         name: "Luca",
-        isActive: "false",
+        isActive: false,
+        age: 0,
     }
 ];
 
-let names = [];
-for (let i = 0; i < users.length; i++){
-    names.push(users[i].name);
-}
-console.log(names)
+
+// Using a for loop
+// let names = [];
+// for (let i = 0; i < users.length; i++){
+//     names.push(users[i].name);
+// }
+// console.log(names)
+
+// Using forEach
+// const names = [];
+// users.forEach((user) =>{
+//     names.push(user.name)
+// })
+
+// Using map
+// const names = users.map((user) => user.name);
+// console.log(names)
+
+// 2. Get back only active users
+
+// let activeUsers = [];
+// for (let i = 0; i < users.length; i++){
+//     if (users[i].isActive) {
+//         activeUsers.push(users[i].name)
+//     }
+// }
+//
+// console.log(activeUsers)
+
+// Using filter and map
+
+// const names = users.filter((user) => user.isActive).map((user) => user.name);
+// console.log(names)
+
+
+
+
+
+
+
+// What will be logged in the first example and in second example?
+
+let var1;
+console.log(var1) // undefined because it is not being defined at all
+console.log(typeof  var1); // undefined
+
+let var2 = null; // null
+console.log(var2); // null because we passed it a var null
+console.log(typeof var2) // object
+
+
+// difference between null or undefined
+// : Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. Undefined: It means the value does not exist in the compiler
