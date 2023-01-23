@@ -127,4 +127,4 @@ function countTo100(num){
 countTo100(20)
 
 
-console.log("I need to work on more functions")
+// deleted function
