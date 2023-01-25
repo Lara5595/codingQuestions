@@ -1,3 +1,10 @@
+// Log hello world
+
+console.log("helloworld")
+
+
+
+
 // 1. Write code to get an array of names from given array of users
 
 const users = [
@@ -61,7 +68,7 @@ const users = [
 
 
 
-
+// Hoisting
 // What will be logged in the first example and in second example?
 
 let var1;
@@ -91,4 +98,12 @@ var foo = 2;
 foo = 3;
 console.log(foo); // this console log  3
 var foo;
+
+
+
+
+
+
+
+// closures
 
