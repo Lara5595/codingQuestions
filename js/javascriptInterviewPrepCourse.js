@@ -107,3 +107,12 @@ var foo;
 
 // closures
 
+// create a counter function which has increment and getValue functionality
+
+function countTo100(){
+    for(let i = 0; i <=100; i++){
+        console.log(i)
+    }
+}
+
+countTo100()
