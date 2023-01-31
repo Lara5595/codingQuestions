@@ -16,3 +16,11 @@ var twoSum = function(nums, target) {
         }
     }
 };
+
+
+// Is Palindrome
+
+function isPalindrome(x) {
+    let reversed = x.toString().split('').reverse().join('');
+    return x.toString() === reversed;
+}
