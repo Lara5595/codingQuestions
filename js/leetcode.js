@@ -26,3 +26,32 @@ function isPalindrome(x) {
     let reversed = x.toString().split('').reverse().join('');
     return x.toString() === reversed;
 }
+
+
+
+// Longest Common Prefix
+let strs = ['flower', 'flow', 'flight']
+let strs2 = ["Hello", "Helicopter", "Helli"]
+
+// var longestCommonPrefix = function(strs) {
+//     // We are checking if there is nothing then don't return anything
+//     if(strs.length == 0){
+//         return "";
+//     }
+//     // We are checking for the first string in the array
+//     let prefix = strs[0];
+//
+//     // We need to loop through the array
+//     for(let i=1; i < strs.length; i++){
+//         // We are doing a while loop to check for the same prefix
+//         // So it is checking if its not an empty string the keep going
+//         while (strs[i].indexOf(prefix) != 0){
+//             prefix = prefix.substring(0, prefix.length - 1);
+//             console.log('prefix is currently  ' + prefix)
+//         }
+//     }
+//     // We are returning the prefix
+//     return prefix
+//
+// };
+
