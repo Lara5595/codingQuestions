@@ -44,7 +44,7 @@ function longestCommonPrefix(strs) {
     // We need to loop through the array
     for (let i = 0; i < strs.length; i++){
         // We are doing a while loop to check for the same prefix
-        // So it is checking if its not an empty string the keep going
+        // So it is checking if it's not an empty string the keep going
        while (strs[i].indexOf(prefix) != 0){
            prefix = prefix.substring(0, prefix.length - 1)
            console.log('prefix is currently  ' + prefix)
@@ -52,3 +52,15 @@ function longestCommonPrefix(strs) {
     }
     return prefix
 };
+
+
+
+
+// Valid Parentheses
+
+function isValid(s) {
+    if (s.contains("()") && s.contains("{}") && s.contains("[]")){
+        return true
+    }
+}
+
