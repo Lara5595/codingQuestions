@@ -58,9 +58,30 @@ function longestCommonPrefix(strs) {
 
 // Valid Parentheses
 
-function isValid(s) {
-    if (s.contains("()") && s.contains("{}") && s.contains("[]")){
-        return true
-    }
-}
+let isValid = function(s) {
+    // We are listing the brackets in hashmap
+    const hashMap = { "(" : ")", "{": "}", "[": "]"}
+    // stack is a empty array
+    const stack = [];
 
+    // ES6 For loop
+    // ch is characters
+    for(let ch of s){
+        // checking if it contains a hashmap
+        if(hashMap[ch]){
+            // ch is an opening bracket
+            // if it has one then push to empty array which is stack
+            // if it has a bracket then push
+            stack.push(hashMap[ch])
+            // this is checking if its has a closing bracket at the end
+        } else if (stack.length > 0  && stack[stack.length - 1] === ch) {
+            // ch is a closing bracket and top of stack matches
+            stack.pop()
+        } else {
+            // ch is a closing bracket and top of the stack doesnt match
+            return false
+        }
+    }
+
+    return stack.length === 0
+};
