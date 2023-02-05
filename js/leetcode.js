@@ -22,7 +22,7 @@ var twoSum = function(nums, target) {
 
 function isPalindrome(x) {
     // This is how you get a string and reverse it
-    // .split is so it splits the string and then reverse the string and then join
+    // .split is, so it splits the string and then reverse the string and then join
     let reversed = x.toString().split('').reverse().join('');
     return x.toString() === reversed;
 }
@@ -85,4 +85,6 @@ let isValid = function(s) {
 
     return stack.length === 0
 };
+
+
 
