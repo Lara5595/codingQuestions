@@ -204,3 +204,54 @@ function isNegativeEven(n) {
     }
 }
 
+
+// Exercise 21
+// Write a function definition named half that takes in a number and returns half the provided number.
+function half(n) {
+    return n/2;
+}
+
+
+// Exercise 22
+// Write a function definition named double that takes in a number and returns double the provided number.
+
+function double(n) {
+    return n*2;
+}
+
+
+// Exercise 23
+// Write a function definition named triple that takes in a number and returns triple the provided number.
+function triple(n) {
+    return n * 3;
+}
+
+
+// Exercise 24
+// Write a function definition named reverseSign that takes in a number and returns the provided number but with the sign reversed.
+
+function reverseSign(n) {
+    if (n >0){
+        return -Math.abs(n);
+    } else {
+        return Math.abs(n);
+    }
+}
+
+// Exercise 25
+// Write a function definition named absoluteValue that takes in a number and returns the absolute value of the provided number
+function absoluteValue(n) {
+    return Math.abs(n);
+}
+
+// Exercise 26
+// Write a function definition named isMultipleOfThree that takes in a number and returns true or false if the number is evenly divisible by 3.
+
+function isMultipleOfThree(n) {
+    if ( n % 3 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
