@@ -255,3 +255,106 @@ function isMultipleOfThree(n) {
     }
 }
 
+// Exercise 27
+// Write a function definition named isMultipleOfFive that takes in a number and returns true or false if the number is evenly divisible by 5.
+
+function isMultipleOfFive(n) {
+    if ( n % 5 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
+// Exercise 28
+// Write a function definition named isMultipleOfBothThreeAndFive that takes in a number and returns true or false if the number is evenly divisible by both 3 and 5.
+
+
+function isMultipleOfBothThreeAndFive(n) {
+    if (n % 3 === 0 && n % 5 === 0) {
+        return true
+    } else {
+        return false
+    }
+}
+
+
+// Exercise 29
+// Write a function definition named square that takes in a number and returns the number times itself.
+function square(n) {
+    return n * n;
+}
+
+
+// Exercise 30
+// Write a function definition named add that takes in two numbers and returns the sum.
+function add(d,l) {
+    return (d + l);
+}
+
+
+// Exercise 31
+// Write a function definition named cube that takes in a number and returns the number times itself, times itself.
+function cube(n) {
+    return Math.pow(n,3);
+}
+
+
+// Exercise 32
+// Write a function definition named squareRoot that takes in a number and returns the square root of the provided number
+function squareRoot(n) {
+    return Math.sqrt(n);
+}
+
+
+// Exercise 33
+// Write a function definition named subtract that takes in two numbers and returns the first minus the second argument.
+function subtract(i,h) {
+    return (i - h);
+}
+
+
+// Exercise 34
+// Write a function definition named multiply that takes in two numbers and returns the first times the second argument.
+function multiply(a,b) {
+    return a * b;
+}
+
+// Exercise 35
+// Write a function definition named divide that takes in two numbers and returns the first argument divided by the second argument.
+function divide(a,b) {
+    return a / b;
+}
+
+
+// Exercise 36
+// Write a function definition named quotient that takes in two numbers and returns the quotient of dividing the first argument by the second argument.
+function quotient(a,b) {
+    return parseInt(a / b);
+}
+
+
+// Exercise 37
+// Write a function definition named remainder that takes in two numbers and returns the remainder of first argument divided by the second argument.
+function remainder(a,b) {
+    return Math.floor(a%b);
+}
+
+
+// Exercise 38
+// Write a function definition named sumOfSquares that takes in two numbers, squares each number, then returns the sum of both squares.
+function sumOfSquares(a,b) {
+    return Math.pow(a,2) + Math.pow(b,2);
+}
+
+// Exercise 39
+// Write a function definition named timesTwoPlusThree that takes in a number, multiplies it by two, adds 3 and returns the result.
+function timesTwoPlusThree(n) {
+    return (n * 2) + 3;
+}
+
+// Exercise 40
+// Write a function definition named areaOfRectangle that takes in two numbers and returns the product.
+function areaOfRectangle(a,b) {
+    return a * b;
+}
