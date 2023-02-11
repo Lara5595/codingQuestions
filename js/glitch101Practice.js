@@ -182,3 +182,25 @@ function isPositiveEven(n) {
     }
 }
 
+
+// Exercise 19
+// Write a function definition named isNegativeOdd that takes in a number and returns true or false if the value is both less than zero and odd.
+function isNegativeOdd(n) {
+    if ( n < 0 && n % 2 !==0 ){
+        return true }
+    else {
+        return false
+    }
+}
+
+
+// Exercise 20
+// Write a function definition named isNegativeEven that takes in a number and returns true or false if the value is both less than zero and even.
+function isNegativeEven(n) {
+    if (n < 0 && n % 2 ===0) {
+        return true
+    } else {
+        return false
+    }
+}
+
