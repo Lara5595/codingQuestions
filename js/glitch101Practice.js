@@ -358,3 +358,6 @@ function timesTwoPlusThree(n) {
 function areaOfRectangle(a,b) {
     return a * b;
 }
+
+
+// Need to get to 100
