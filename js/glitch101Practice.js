@@ -360,5 +360,4 @@ function areaOfRectangle(a,b) {
 }
 
 
-// Need to get to 100
-// working on ex 41
+// deleted comments
