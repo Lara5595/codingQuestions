@@ -353,6 +353,9 @@ function timesTwoPlusThree(n) {
     return (n * 2) + 3;
 }
 
+
+
+
 // Exercise 40
 // Write a function definition named areaOfRectangle that takes in two numbers and returns the product.
 function areaOfRectangle(a,b) {
@@ -361,3 +364,4 @@ function areaOfRectangle(a,b) {
 
 
 // Need to finish 101`
+// on quetion 41
