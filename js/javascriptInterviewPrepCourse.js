@@ -128,3 +128,11 @@ countTo100(20)
 
 
 // deleted function
+
+
+
+// button vanilla js
+let vanillaButton = document.getElementById("vanilla")
+vanillaButton.addEventListener('click', function (){
+    alert("hello")
+})
