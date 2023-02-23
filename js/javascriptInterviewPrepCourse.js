@@ -136,3 +136,5 @@ let vanillaButton = document.getElementById("vanilla")
 vanillaButton.addEventListener('click', function (){
     alert("hello")
 })
+
+// Need to study more js vanilla
