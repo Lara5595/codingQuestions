@@ -137,4 +137,9 @@ vanillaButton.addEventListener('click', function (){
     alert("hello")
 })
 
-// Need to study more js vanilla
+// adding a block with a button
+const buttonContainer = document.getElementById("blockContainer")
+const block = document.createElement('div')
+
+const blockButton = document.getElementById("addblock");
+block.append(blockButton)
