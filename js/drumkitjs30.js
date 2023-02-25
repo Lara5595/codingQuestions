@@ -13,4 +13,17 @@ window.addEventListener('keydown', function (e){
     audio.currentTime =0; // rewind to start
     // .play lets you play the beat
     audio.play()
-})
+
+    key.classList.add('playing')
+
+
+    function removeTransition(e) {
+        if(e.propertyName !== 'transform') return; //skip it if it's not being called
+        this.classList.remove('playing')
+    }
+
+    const keys = document.querySelectorAll('.key')
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition))
+
+
+}) // end of window.add EventListener
