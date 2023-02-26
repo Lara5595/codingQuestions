@@ -28,4 +28,3 @@ window.addEventListener('keydown', function (e){
 
 }) // end of window.add EventListener
 
-// starting day 3
