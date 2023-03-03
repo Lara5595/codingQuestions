@@ -28,22 +28,39 @@ const people = [
 
 // Array.prototype.filter()
 // 1. Filter the list of inventors for those who were born in the 1500's
-const fifteen = invetors.filert(function (inventor) {
+const fifteen = inventors.filter(function (inventor) {
     if (inventor.year >= 1500 && inventor.year < 1600) {
         return true;
-    } else {
-        return false;
     }
 })
+
+// another way is es6
+// const es6fifteen = inventors.filter(inventor => (inventor.year >= 1500 && inventor.year < 1600))
 
 console.log(fifteen)
 console.table(fifteen)
 
+
+
 // Array.prototype.map()
 // 2. Give us an array of the inventors first and last names
+// const fullName = inventors.map(function (inventorFullName) {
+//     return {
+//         fullNames: `${inventorFullName.first} ${inventorFullName.last}`
+//     }
+// })
+
+// or
+
+const fullName = inventors.map(inventor => `${inventor.first} ${inventor.last}`)
+
+console.log(fullName)
+
 
 // Array.prototype.sort()
 // 3. Sort the inventors by birthdate, oldest to youngest
+
+
 
 // Array.prototype.reduce()
 // 4. How many years did all the inventors live all together?
