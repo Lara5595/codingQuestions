@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/lib/tailwind.css" />
+  <link rel="stylesheet" href="css/searchStyles.css">
+  <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+  <title>Searchspring Challenge</title>
+</head>
+
+<body>
+<nav
+class="
+bg-indigo-100
+px-2
+sm:px-4
+py-2.5
+sticky
+w-full
+z-20
+top-0
+left-0
+border-b border-gray-300
+flex
+items-center
+justify-between
+flex-wrap
+bg-gray-200
+"
+>
+  <img
+  class="object-cover h-16"
+  src="https://searchspring.com/wp-content/uploads/2020/01/SearchSpring-Primary-FullColor-800-1-1-640x208.png"
+  />
+  <div
+  class="
+  rounded
+  border
+  p-2
+  border-gray-300
+  flex
+  items-center
+  justify-between
+  flex-wrap
+  bg-indigo-800
+  text-white
+  "
+  >
+    <i class="fas fa-shopping-cart mr-1"></i>
+    <div id="cart-size">0</div>
+  </div>
+</nav>
+<div
+id="product-grid"
+class="
+grid grid-cols-2
+sm:grid-cols-2
+md:grid-cols-3
+lg:grid-cols-4
+gap-4
+p-5
+"
+></div>
+
+
+<script src="js/searchCart.js"></script>
+<script src="js/searchProducts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--# Searchspring Challenge-->
+
+<!--Welcome to the Searchspring Challenge! This challenge is designed to give us an idea of your skills with HTML, CSS and JS.-->
+
+<!--If you get stuck on something or need reference documentation feel free to Google it. We use Google every day.-->
+
+<!--All of the files you will need to edit can be found within the `src/` directory. Here is a brief overview of each file you will need to edit or reference:-->
+
+<!-- - `index.html` - The main HTML file for the challenge.-->
+<!-- - `products.js` - A JS file that loads some products from Searchspring and renders them into the HTML. You can reference this file to see the HTML structure for the products.-->
+<!-- - `styles.css` - A blank CSS file where you will add any styles required to complete the challenge.-->
+<!-- - `cart.js` - A JS file with an empty function in it. You will be adding JS within this function.-->
+
+<!--## CSS-->
+
+<!--1. For each product that is on sale there is text that says what % off the product is. Can you add CSS to `src/styles.css` to make this text red and bold? To view the HTML for the text you can use your dev tools inspector or find the HTML within `src/products.js`.-->
+<!--2. At the bottom of each product there is an "Add to Cart" button. This is ugly and should be styled to look more like a button. Can you improve it's styling? Use your creativity to make it look good. To view the HTML for the button you can use your dev tools inspector or find the HTML within `src/products.js`.-->
+
+<!--## JS-->
+
+<!--1. At the top right of the window you'll see a cart icon with a zero next to it. We'd like you to make it so that if someone clicks on any of the "Add to Cart" buttons that the number next to that cart icon is increased by one. You will want to add the code for this inside of the `attachAddToCart` function in the `src/cart.js` file. This function is called after the results are rendered automatically for you. To view the HTML for the cart icon you can use your dev tools inspector or find the HTML within `src/index.html`.-->
