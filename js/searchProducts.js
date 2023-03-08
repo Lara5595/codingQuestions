@@ -44,3 +44,6 @@ fetch(apiUrl)
         document.getElementById("product-grid").innerHTML = html;
         attachAddToCart();
     });
+
+
+//Delete and try again
