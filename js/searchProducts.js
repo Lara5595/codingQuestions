@@ -46,5 +46,4 @@ fetch(apiUrl)
     });
 
 
-//Delete and try again
-// need to study
+// DELETED COMMENTS
