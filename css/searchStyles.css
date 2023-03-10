@@ -15,16 +15,3 @@
 
 
 
- span.percent-off {
-     color: red;
-     font-weight: bolder;
- }
-
-
- button.add-to-cart-button {
-     color: black;
-     background-color: yellow;
-     padding: 3%;
-     border-radius: 10px;
-     font-family: monospace;
- }
