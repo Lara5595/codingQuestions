@@ -23,20 +23,20 @@
 
 function  attachAddToCart() {
 
-    const addItems = document.querySelectorAll(".add-to-cart-button");
-
-    const cartSize = document.getElementById("cart-size")
-
-    let itemsIncart = 0;
-
-
-    addItems.forEach(button => {
-        button.addEventListener('click', function() {
-            itemsIncart++;
-            cartSize.textContent = itemsIncart.toString()
-
-        })
-    })
+    // const addItems = document.querySelectorAll(".add-to-cart-button");
+    //
+    // const cartSize = document.getElementById("cart-size")
+    //
+    // let itemsIncart = 0;
+    //
+    //
+    // addItems.forEach(button => {
+    //     button.addEventListener('click', function() {
+    //         itemsIncart++;
+    //         cartSize.textContent = itemsIncart.toString()
+    //
+    //     })
+    // })
 
 
 

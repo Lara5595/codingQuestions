@@ -1,15 +1,21 @@
  /*All your styles can go here */
-.percent-off {
-    color: red;
-    font-weight: bolder;
+/*.percent-off {*/
+/*    color: red;*/
+/*    font-weight: bolder;*/
 
-}
+/*}*/
 
 
-.add-to-cart-button {
-    background-color:yellow;
-    border-radius: 5px;
-    padding:  6%;
-    color: black;
-}
+/*.add-to-cart-button {*/
+/*    background-color:yellow;*/
+/*    border-radius: 5px;*/
+/*    padding:  6%;*/
+/*    color: black;*/
+/*}*/
 
+
+
+ span.percent-off {
+     color: red;
+     font-weight: bolder;
+ }
