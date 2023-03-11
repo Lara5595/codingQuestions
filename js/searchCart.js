@@ -45,18 +45,7 @@
 
 function  attachAddToCart() {
 
-    const addToCart = document.querySelectorAll(".add-to-cart-button")
 
-    const cartSize = document.getElementById("cart-size")
-
-    let counter = 0;
-
-    addToCart.forEach(button => {
-        button.addEventListener('click', function () {
-            counter++
-            cartSize.textContent = counter
-        })
-    })
 
 }
 
