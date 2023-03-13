@@ -14,7 +14,7 @@ function handleCheck(e){
                 inBetween =  !inBetween;
                 console.log("starting to check in between")
             }
-
+// if the boxes are inbetween they will get a check
             if (inBetween) {
                 checkbox.checked = true;
             }
