@@ -33,18 +33,54 @@ console.warn('OH NOOOO')
   // Error :|
 console.error('error')
   // Info
-
+console.info('Crocodiles eat 3-4 people per year');
   // Testing
-
+  // will only show if its wrong
+console.assert(1 ===2, 'That is wrong!')
   // clearing
+  // this will clear the console
+
+// console.clear();
+
 
   // Viewing DOM Elements
+  // console.log(p)
+  // console.dir(p)
+
 
   // Grouping together
+  dogs.forEach(dog => {
+    console.group(`${dog.name}`)
+    console.log(`This is ${dog.name}`)
+    console.log(`${dog.name} is ${dog.age * 7} dog years`)
+  })
+
 
   // counting
+  // This counts how many times we type luca or david and lessly
+  console.count('Luca')
+  console.count('Luca')
+  console.count('David')
+  console.count('Luca')
+  console.count('Lessly')
+  console.count('Lessly')
+
 
   // timing
+  // this takes time
+
+  console.time('fetching data')
+  fetch('https://api.github.com/users/wesbos')
+          .then(data => data.json)
+          .then(data => {
+            console.timeEnd('fetching data')
+            console.log(data)
+          })
+
+
+  // table
+
+  console.table(dogs)
 
 </script>
 </body>
