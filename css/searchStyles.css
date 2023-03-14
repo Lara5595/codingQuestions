@@ -1,17 +1,13 @@
  /*All your styles can go here */
+
 .percent-off {
     color: red;
     font-weight: bolder;
-
 }
 
-
-.add-to-cart-button {
-    background-color:yellow;
-    border-radius: 5px;
-    padding:  3%;
-    color: black;
-}
-
-
-
+ button.add-to-cart-button {
+     background-color: yellow;
+     padding: 14px;
+     border-radius: 10px;
+     color: black;
+ }
