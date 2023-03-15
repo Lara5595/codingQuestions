@@ -45,13 +45,7 @@
 
 function  attachAddToCart() {
 
-const addToCartButton = document.querySelectorAll(".add-to-cart-button")
 
-    addToCartButton.forEach(button => {
-        button.addEventListener("click", function (){
-            alert("hi")
-        })
-    })
 
 }
 

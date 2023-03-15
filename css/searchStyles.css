@@ -5,9 +5,10 @@
     font-weight: bolder;
 }
 
- button.add-to-cart-button {
-     background-color: yellow;
-     padding: 14px;
-     border-radius: 10px;
-     color: black;
- }
+.add-to-cart-button {
+    color: black;
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 13px;
+    font-family: monospace;
+}
