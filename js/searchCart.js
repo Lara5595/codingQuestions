@@ -63,4 +63,3 @@ function  attachAddToCart() {
 
 }
 
-//deleted comments
